@@ -1,15 +1,15 @@
 # Angular2 CRUD Operations using Node.js and SQL Server
 This project is using Angular2 as front-end development framework, Express for developing REST API and Sequelize as Node.js ORM to query SQL Server. 
 
-## Sample Prerequisite 
-Make sure you have installed following tools/softwares on your machine to run this project.
+## Pre-requisites
+To run this project you should have the following tools/softwares on your machine.
 
 * Node.js
 * VS Code IDE
 * SQL Server
 
 ## Running Project
-In order to run this project on your machine, please follow the folowing steps.
+In order to run this project, please follow the folowing steps.
 
 ### Step 1 : Installing Node.js Dependencies
 In order to install node.js server dependencies, run the following command on project root level. Here, we are using windows OS.
