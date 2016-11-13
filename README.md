@@ -24,7 +24,21 @@ In order to install Angular2 dependencies, first goto client folder.
 Now, run the following command on client folder level to install Angular2 dependencies.
 
 `C:\Node_Angular2_CRUD\client>npm install`
-## Step 3 : Run Application
+
+## Step 3 : Database Settings
+
+Please change the database settings as per your machine within **.\server\config\db.js** file. 
+
+```javascript
+const sequelize = new Sequelize('Angular2_Node', 'sa', 'dotnettricks', {
+    host: 'localhost',
+    port: '1434', // default port number or sql server running port number
+    dialect: 'mssql',
+});
+```
+Make sure you have created database **Angular2_Node** with table **Users** and having columns - UserId: int, Name: varchar(50), Address: varchar(500), ContactNo: varchar(20).
+
+## Step 4 : Run Application
 In order to run your application, run the following command.
 
 `C:\Node_Angular2_CRUD>node server`

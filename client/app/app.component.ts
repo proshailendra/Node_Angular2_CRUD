@@ -8,7 +8,7 @@ import { UserService } from './user.service'
   selector: 'my-app',
   template: `
   <div class="navbar navbar-default">
-        <a class="navbar-brand" href="#">Angular2 App</a>
+        <a class="navbar-brand" href="#">Dot Net Tricks - Angular2 App Sample</a>
         <ul class="nav navbar-nav">
             <li>
                <a routerLink="/">Home</a>
