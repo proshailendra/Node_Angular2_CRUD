@@ -2,7 +2,7 @@
 This project sample is using Angular2 as front-end development framework, Express for developing REST API and Sequelize as Node.js ORM to query SQL Server. 
 
 ## Sample Prerequisite 
-Make sure you have installed following tools or software on your machine to run this project.
+Make sure you have installed following tools/softwares on your machine to run this project.
 
 * Node.js
 * VS Code IDE
