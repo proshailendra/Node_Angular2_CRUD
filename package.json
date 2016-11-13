@@ -1,0 +1,11 @@
+{
+    "name": "angular-quickstart",
+    "version": "1.0.0",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "mssql": "^3.3.0",
+        "sequelize": "^3.24.3",
+        "tedious": "^1.14.0"
+    }
+}
